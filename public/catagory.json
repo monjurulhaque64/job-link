@@ -1,0 +1,28 @@
+[
+          {
+            "id": 1,
+            "categoryLogo": "https://example.com/category1-logo.png",
+            "categoryName": "Software Development",
+            "jobsAvailable": 50
+          },
+          {
+            "id": 2,
+            "categoryLogo": "https://example.com/category2-logo.png",
+            "categoryName": "Marketing",
+            "jobsAvailable": 30
+          },
+          {
+            "id": 3,
+            "categoryLogo": "https://example.com/category3-logo.png",
+            "categoryName": "Design",
+            "jobsAvailable": 20
+          },
+          {
+            "id": 4,
+            "categoryLogo": "https://example.com/category4-logo.png",
+            "categoryName": "Finance",
+            "jobsAvailable": 10
+          }
+      
+]
+  
