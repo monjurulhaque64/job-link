@@ -1,0 +1,114 @@
+[
+      {
+        "id": 1,
+        "companyLogo": "https://example.com/company1-logo.png",
+        "jobTitle": "Software Engineer",
+        "companyName": "ABC Tech",
+        "remoteOrOnsite": "Remote",
+        "location": "Any",
+        "employmentType": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "jobDescription": "We are seeking a skilled software engineer to join our development team...",
+        "jobResponsibility": "Develop and maintain high-quality software solutions...",
+        "educationalRequirements": "Bachelor's degree in Computer Science or related field...",
+        "experiences": "3+ years of experience in software development...",
+        "contactInformation": {
+          "phone": "123-456-7890",
+          "email": "jobs@abc-tech.com"
+        }
+      },
+      {
+        "id": 2,
+        "companyLogo": "https://example.com/company2-logo.png",
+        "jobTitle": "Graphic Designer",
+        "companyName": "XYZ Designs",
+        "remoteOrOnsite": "Onsite",
+        "location": "New York City",
+        "employmentType": "Part-time",
+        "salary": "$30 - $40 per hour",
+        "jobDescription": "We are looking for a creative graphic designer to join our team...",
+        "jobResponsibility": "Create visually appealing designs for various projects...",
+        "educationalRequirements": "Degree in Graphic Design or related field...",
+        "experiences": "2+ years of experience in graphic design...",
+        "contactInformation": {
+          "phone": "987-654-3210",
+          "email": "jobs@xyz-designs.com"
+        }
+      },
+      {
+        "id": 3,
+        "companyLogo": "https://example.com/company1-logo.png",
+        "jobTitle": "Web Designer",
+        "companyName": "XYZ Design Studio",
+        "remoteOrOnsite": "Onsite",
+        "location": "City ABC",
+        "employmentType": "Part-time",
+        "salary": "$40,000 - $60,000",
+        "jobDescription": "We are looking for a talented web designer to create amazing user experiences...",
+        "jobResponsibility": "Design and implement creative and visually appealing website layouts...",
+        "educationalRequirements": "Degree in Graphic Design or related field...",
+        "experiences": "2+ years of experience in web design...",
+        "contactInformation": {
+          "phone": "987-654-3210",
+          "email": "jobs@xyzdesignstudio.com"
+        }
+      },
+      {
+        "id": 4,
+        "companyLogo": "https://example.com/company3-logo.png",
+        "jobTitle": "Marketing Manager",
+        "companyName": "Global Marketing Solutions",
+        "remoteOrOnsite": "Onsite",
+        "location": "City XYZ",
+        "employmentType": "Full-time",
+        "salary": "$70,000 - $90,000",
+        "jobDescription": "We are seeking a highly motivated marketing manager to lead our marketing efforts...",
+        "jobResponsibility": "Develop and execute marketing strategies, analyze market trends...",
+        "educationalRequirements": "Bachelor's degree in Marketing or related field...",
+        "experiences": "5+ years of experience in marketing management...",
+        "contactInformation": {
+          "phone": "456-789-1230",
+          "email": "jobs@globalmarketingsolutions.com"
+        }
+      },
+
+      {
+  "id": 5,
+  "companyLogo": "https://example.com/company4-logo.png",
+  "jobTitle": "Data Analyst",
+  "companyName": "Data Insights Co.",
+  "remoteOrOnsite": "Remote",
+  "location": "Any",
+  "employmentType": "Full-time",
+  "salary": "$60,000 - $80,000",
+  "jobDescription": "We are looking for a skilled data analyst to turn data into actionable insights...",
+  "jobResponsibility": "Analyze large datasets, develop reports and visualizations...",
+  "educationalRequirements": "Bachelor's degree in Statistics, Mathematics, or related field...",
+  "experiences": "2+ years of experience in data analysis...",
+  "contactInformation": {
+    "phone": "321-654-0987",
+    "email": "jobs@datainsightsco.com"
+  }
+},
+{
+    "id": 6,
+    "companyLogo": "https://example.com/company5-logo.png",
+    "jobTitle": "Graphic Designer",
+    "companyName": "Creative Designs Agency",
+    "remoteOrOnsite": "Remote",
+    "location": "Any",
+    "employmentType": "Part-time",
+    "salary": "$40,000 - $60,000",
+    "jobDescription": "We are seeking a talented graphic designer to join our creative team...",
+    "jobResponsibility": "Create visually appealing designs for various digital and print media...",
+    "educationalRequirements": "Bachelor's degree in Graphic Design or related field...",
+    "experiences": "2+ years of experience in graphic design...",
+    "contactInformation": {
+      "phone": "987-654-3210",
+      "email": "jobs@creativedesignsagency.com"
+    }
+  }
+  
+
+      
+]
