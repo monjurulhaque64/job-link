@@ -1,28 +1,26 @@
 [
-          {
-            "id": 1,
-            "categoryLogo": "https://example.com/category1-logo.png",
-            "categoryName": "Software Development",
-            "jobsAvailable": 50
-          },
-          {
-            "id": 2,
-            "categoryLogo": "https://example.com/category2-logo.png",
-            "categoryName": "Marketing",
-            "jobsAvailable": 30
-          },
-          {
-            "id": 3,
-            "categoryLogo": "https://example.com/category3-logo.png",
-            "categoryName": "Design",
-            "jobsAvailable": 20
-          },
-          {
-            "id": 4,
-            "categoryLogo": "https://example.com/category4-logo.png",
-            "categoryName": "Finance",
-            "jobsAvailable": 10
-          }
-      
+  {
+    "id": 1,
+    "jobLogo": "./Icons/accounts-1.png",
+    "jobCategory": "Account & Finance",
+    "amountOfAvailableJobs": 870
+  },
+  {
+    "id": 2,
+    "jobLogo": "./Icons/business-1.png",
+    "jobCategory": "Creative Design",
+    "amountOfAvailableJobs": 435
+  },
+  {
+    "id": 3,
+    "jobLogo": "./Icons/social-media-1.png",
+    "jobCategory": "Marketing & Sales",
+    "amountOfAvailableJobs": 609
+  },
+  {
+    "id": 4,
+    "jobLogo": "./Icons/chip-1.png",
+    "jobCategory": "Engineering Job",
+    "amountOfAvailableJobs": 261
+  }
 ]
-  
