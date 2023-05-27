@@ -1,44 +1,61 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import Button from "react-bootstrap/Button";
+import Container from "react-bootstrap/Container";
+import Nav from "react-bootstrap/Nav";
+import Navbar from "react-bootstrap/Navbar";
+import { Link } from "react-router-dom";
+import "./MyNavbar.css";
 
 const Navbar = () => {
     return (
-        <div className='container mx-auto mt-10'>
-            <div className="navbar bg-base-100">
-                <div className="navbar-start">
-                    <div className="dropdown">
-                        <label tabIndex={0} className="btn btn-ghost lg:hidden">
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
-                        </label>
-                        <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Statistics</a></li>
-                            <li>
-                                <a className="justify-between">
+        <Navbar bg="light" expand="lg" className="container position-relative">
+            <Container fluid className="position-sticky top-0">
+                <Navbar.Brand className="fw-bolder cursor-none" href="#">
+                    EmploymentGateway
+                </Navbar.Brand>
+                <Navbar.Toggle aria-controls="navbarScroll" />
+                <Navbar.Collapse id="navbarScroll">
+                    <Nav
+                        className="mx-auto my-2 my-lg-0"
+                        style={{ maxHeight: "100px" }}
+                        navbarScroll
+                    >
+                        <div className="d-flex gap-4">
+                            <Link to="/" className="text-decoration-none text-secondary">
+                                Home
+                            </Link>
+                            <Link
+                                to="/statistics"
+                                className="text-decoration-none text-secondary"
+                            >
+                                Statistics
+                            </Link>
+                            <Link
+                                to="/appliedJobs"
+                                className="text-decoration-none text-secondary"
+                            >
                                 Applied Jobs
-                                </a>
-                            </li>
-                            <Link to={'/blog'}><li><a>Blog</a></li></Link>
-                        </ul>
-                    </div>
-                    <a className="btn btn-ghost normal-case text-xl">Fit My Job</a>
-                </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                        <li><a>Statistics</a></li>
-                        <li>
-                            <a>
-                            Applied Jobs 
-                            </a>
-                        </li>
-                        <Link to={'/blog'}><li><a>Blog</a></li></Link>
-                    </ul>
-                </div>
-                <div className="navbar-end">
-                    <a className="btn btn-primary">Star Applying</a>
-                </div>
-            </div>
-        </div>
+                            </Link>
+                            <Link to="/blog" className="text-decoration-none text-secondary">
+                                Blog
+                            </Link>
+                        </div>
+                    </Nav>
+                    <Button
+                        variant="outline-success"
+                        style={{
+                            backgroundImage:
+                                "linear-gradient(to left, #7E90FE 0%, #9873FF 100%)",
+                        }}
+                        className="text-white cursor-none"
+                    >
+                        Start Applying
+                    </Button>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 };
+
 
 export default Navbar;
