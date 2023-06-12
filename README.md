@@ -3,3 +3,4 @@
 3. Display job listings with essential details such as job title, company name, location, and a brief description
 4. here filter option user easly filter remote job or Onsite job
 5. also add a blog page
+live site: https://lucent-snickerdoodle-83b6ad.netlify.app/appliedJobs
